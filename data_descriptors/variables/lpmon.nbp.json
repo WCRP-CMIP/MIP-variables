@@ -1,0 +1,36 @@
+{
+    "@context": "_context_",
+    "id": "lpmon.nbp",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "lpmon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: mean where land time: mean",
+    "comment": "This is the net mass flux of carbon from atmosphere into land, calculated as photosynthesis MINUS the sum of  plant and soil respiration, carbon fluxes from fire, harvest, grazing  and land use change. Positive flux is into the land.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Carbon Mass Flux out of Atmosphere Due to Net Biospheric Production on Land [kgC m-2 s-1]",
+    "modeling_realm": [
+        "land"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "nbp",
+    "positive": "down",
+    "standard_name": "surface_net_downward_mass_flux_of_carbon_dioxide_expressed_as_carbon_due_to_all_land_processes",
+    "units": "kg m-2 s-1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

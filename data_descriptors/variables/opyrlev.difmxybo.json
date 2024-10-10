@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "opyrlev.difmxybo",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "opyrlev",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "area: mean where sea time: mean",
+    "comment": "Lateral biharmonic viscosity applied to the momentum equations.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "yr",
+    "long_name": "Ocean Momentum XY Biharmonic Diffusivity",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "difmxybo",
+    "positive": "",
+    "standard_name": "ocean_momentum_xy_biharmonic_diffusivity",
+    "units": "m4 s-1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

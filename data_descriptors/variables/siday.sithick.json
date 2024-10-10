@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "siday.sithick",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "siday",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "comment": "Actual (floe) thickness of sea ice (NOT volume divided by grid area as was done in CMIP5)",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "day",
+    "long_name": "Sea Ice Thickness",
+    "modeling_realm": [
+        "seaIce",
+        "ocean"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "sithick",
+    "positive": "",
+    "standard_name": "sea_ice_thickness",
+    "units": "m",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

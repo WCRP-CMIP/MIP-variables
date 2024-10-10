@@ -1,0 +1,36 @@
+{
+    "@context": "_context_",
+    "id": "ae6hr.bldep",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "ae6hr",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: time: mean",
+    "comment": "Boundary layer depth",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "6hr",
+    "long_name": "Boundary Layer Depth",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "bldep",
+    "positive": "",
+    "standard_name": "atmosphere_boundary_layer_thickness",
+    "units": "m",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

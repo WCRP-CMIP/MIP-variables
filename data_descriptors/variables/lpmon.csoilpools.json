@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "lpmon.csoilpools",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "lpmon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: mean where land time: mean",
+    "comment": "For models with multiple soil carbon pools, report each pool here. If models also have vertical discretisation these should be aggregated",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "soilpools",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Carbon Mass in Each Model Soil Pool (Summed over Vertical Levels)",
+    "modeling_realm": [
+        "land"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "cSoilPools",
+    "positive": "",
+    "standard_name": "soil_mass_content_of_carbon",
+    "units": "kg m-2",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

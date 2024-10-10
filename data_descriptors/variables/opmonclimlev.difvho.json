@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "opmonclimlev.difvho",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "opmonclimlev",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "comment": "Vertical/dianeutral diffusivity applied to prognostic temperature field.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time2"
+    ],
+    "frequency": "monC",
+    "long_name": "Ocean Vertical Heat Diffusivity",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "difvho",
+    "positive": "",
+    "standard_name": "ocean_vertical_heat_diffusivity",
+    "units": "m2 s-1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

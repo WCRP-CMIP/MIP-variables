@@ -1,0 +1,36 @@
+{
+    "@context": "_context_",
+    "id": "apsubhrpt.pr",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "apsubhrpt",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: mean time: point",
+    "comment": "includes both liquid and solid phases",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "frequency": "subhrPt",
+    "long_name": "Precipitation",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "pr",
+    "positive": "",
+    "standard_name": "precipitation_flux",
+    "units": "kg m-2 s-1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

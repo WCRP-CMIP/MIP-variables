@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "simon.siitdconc",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "simon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "comment": "Percentage of grid cell covered by each ice-thickness category (vector with one entry for each thickness category starting from the thinnest category, netcdf file should use thickness bounds of the categories as third coordinate axis)",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "iceband",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Sea-Ice Area Percentages in Thickness Categories",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "siitdconc",
+    "positive": "",
+    "standard_name": "sea_ice_area_fraction",
+    "units": "%",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "ae3hrpt.rsuscsafbnd",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "ae3hrpt",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "time: point",
+    "comment": "Calculated in the absence of aerosols and clouds, following Ghan (ACP, 2013). This requires a double-call in the radiation code with precisely the same meteorology.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "spectband",
+        "time1"
+    ],
+    "frequency": "3hrPt",
+    "long_name": "Surface Upwelling Clear-Sky, Aerosol-Free Shortwave Radiation in Bands",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "rsuscsafbnd",
+    "positive": "up",
+    "standard_name": "surface_upwelling_shortwave_flux_in_air_assuming_clear_sky_and_no_aerosol",
+    "units": "W m-2",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

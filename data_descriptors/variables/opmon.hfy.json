@@ -1,0 +1,36 @@
+{
+    "@context": "_context_",
+    "id": "opmon.hfy",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "opmon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello",
+    "cell_methods": "area: mean where sea time: mean",
+    "comment": "Contains all contributions to 'y-ward' heat transport from resolved and parameterized processes. Use Celsius for temperature scale.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Ocean Heat Y Transport",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "hfy",
+    "positive": "",
+    "standard_name": "ocean_heat_y_transport",
+    "units": "W",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

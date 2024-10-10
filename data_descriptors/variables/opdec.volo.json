@@ -1,0 +1,34 @@
+{
+    "@context": "_context_",
+    "id": "opdec.volo",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "opdec",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "",
+    "cell_methods": "area: sum where sea time: mean",
+    "comment": "Total volume of liquid sea water.",
+    "dimensions": [
+        "time"
+    ],
+    "frequency": "dec",
+    "long_name": "Sea Water Volume",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "volo",
+    "positive": "",
+    "standard_name": "sea_water_volume",
+    "units": "m3",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

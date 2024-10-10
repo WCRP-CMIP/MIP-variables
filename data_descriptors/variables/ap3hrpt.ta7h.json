@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "ap3hrpt.ta7h",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "ap3hrpt",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: mean time: point",
+    "comment": "Air Temperature",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev7h",
+        "time1"
+    ],
+    "frequency": "3hrPt",
+    "long_name": "Air Temperature",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "ta7h",
+    "positive": "",
+    "standard_name": "air_temperature",
+    "units": "K",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

@@ -1,0 +1,36 @@
+{
+    "@context": "_context_",
+    "id": "obmon.intdoc",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "obmon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello",
+    "cell_methods": "area: mean where sea depth: sum where sea time: mean",
+    "comment": "Vertically integrated DOC (explicit pools only)",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Dissolved Organic Carbon Content",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "intdoc",
+    "positive": "",
+    "standard_name": "ocean_mass_content_of_dissolved_organic_carbon",
+    "units": "kg m-2",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

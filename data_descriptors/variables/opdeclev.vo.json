@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "opdeclev.vo",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "opdeclev",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "--OPT",
+    "cell_methods": "time: mean",
+    "comment": "Prognostic y-ward velocity component resolved by the model.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "dec",
+    "long_name": "Sea Water Y Velocity",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "vo",
+    "positive": "",
+    "standard_name": "sea_water_y_velocity",
+    "units": "m s-1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

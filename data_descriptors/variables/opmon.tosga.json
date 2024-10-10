@@ -1,0 +1,34 @@
+{
+    "@context": "_context_",
+    "id": "opmon.tosga",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "opmon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "",
+    "cell_methods": "area: mean where sea time: mean",
+    "comment": "Temperature of upper boundary of the liquid ocean, including temperatures below sea-ice and floating ice shelves.",
+    "dimensions": [
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Global Average Sea Surface Temperature",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "tosga",
+    "positive": "",
+    "standard_name": "sea_surface_temperature",
+    "units": "degC",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

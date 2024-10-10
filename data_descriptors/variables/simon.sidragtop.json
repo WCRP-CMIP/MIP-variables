@@ -1,0 +1,36 @@
+{
+    "@context": "_context_",
+    "id": "simon.sidragtop",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "simon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "comment": "Atmospheric drag coefficient that is used to calculate the atmospheric momentum drag on sea ice",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Atmospheric Drag Coefficient",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "sidragtop",
+    "positive": "",
+    "standard_name": "surface_drag_coefficient_for_momentum_in_air",
+    "units": "1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

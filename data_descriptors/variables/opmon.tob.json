@@ -1,0 +1,36 @@
+{
+    "@context": "_context_",
+    "id": "opmon.tob",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "opmon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello",
+    "cell_methods": "area: mean where sea time: mean",
+    "comment": "Potential temperature at the ocean bottom-most grid cell.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Sea Water Potential Temperature at Sea Floor",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "tob",
+    "positive": "",
+    "standard_name": "sea_water_potential_temperature_at_sea_floor",
+    "units": "degC",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

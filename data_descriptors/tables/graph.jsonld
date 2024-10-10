@@ -1,0 +1,1376 @@
+{
+  "@context": {
+  "@base": "https://wcrp-cmip.github.io/MIP-variables/tables/",
+  "@vocab": "https://wcrp-cmip.github.io/MIP-variables/tables/",
+  "id": "@id",
+  "type": "@type",
+  "cf": "https://wcrp-cmip.github.io/CF/",
+  "cmip6plus": "https://wcrp-cmip.github.io/CMIP6Plus_CVs/",
+  "cmip7": "https://wcrp-cmip.github.io/CMIP7_CVs/",
+  "mip-variables": "https://wcrp-cmip.github.io/MIP-variables/",
+  "wcrp-universe": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/",
+  "product": {
+    "@type": "@id",
+    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/product/_context_"
+  },
+  "variable_entry": {
+    "@context": "https://wcrp-cmip.github.io/MIP-variables/variables/_context_"
+  }
+},
+  "@graph": [
+    {
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "acmon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "ACmon",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "acmonz",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "ACmonZ",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.041667,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ae1hr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AE1hr",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ae3hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AE3hrPt",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "ae3hrptlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AE3hrPtLev",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ae6hr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AE6hr",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ae6hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AE6hrPt",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "ae6hrptlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AE6hrPtLev",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "aeday",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AEday",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "aemon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AEmon",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "aemonlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AEmonLev",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "aemonz",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AEmonZ",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.017361,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "aesubhrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AEsubhrPt",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.017361,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "aesubhrptsite",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AEsubhrPtSite",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.041667,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ap1hr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AP1hr",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.041667,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ap1hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AP1hrPt",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ap3hr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "AP3hr",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ap3hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "AP3hrPt",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "ap3hrptlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AP3hrPtLev",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ap6hr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "AP6hr",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ap6hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AP6hrPt",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "ap6hrptlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AP6hrPtLev",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ap6hrptz",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "AP6hrPtZ",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apday",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "APday",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "apdaylev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "APdayLev",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apdayz",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "APdayZ",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apfx",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "APfx",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apmon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "APmon",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apmonclim",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "APmonClim",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "apmonclimlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "APmonClimLev",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.041667,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apmondiurnal",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "APmonDiurnal",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "apmonlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "APmonLev",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apmonz",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "APmonZ",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.017361,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apsubhrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "APsubhrPt",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.017361,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "apsubhrptlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "APsubhrPtLev",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.017361,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apsubhrptsite",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "APsubhrPtSite",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "giafx",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "GIAfx",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "giamon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "GIAmon",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 365.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "giayr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "GIAyr",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "gigfx",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "GIGfx",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "gigmon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "GIGmon",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 365.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "gigyr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "GIGyr",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "li3hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "LI3hrPt",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "li6hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "LI6hrPt",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "liday",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "LIday",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lifx",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "LIfx",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "limon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "LImon",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.017361,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lisubhrptsite",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "LIsubhrPtSite",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lp3hr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "LP3hr",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lp3hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "LP3hrPt",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lp6hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "LP6hrPt",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lpday",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "LPday",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lpfx",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "LPfx",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lpmon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "LPmon",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 365.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lpyr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "LPyr",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 365.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lpyrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "LPyrPt",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "obday",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "OBday",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "obmon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "OBmon",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "olevel",
+    "olevhalf"
+  ],
+  "id": "obmonlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "OBmonLev",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 365.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "obyr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "OByr",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 365.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "olevel",
+    "olevhalf"
+  ],
+  "id": "obyrlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "OByrLev",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "op3hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "OP3hrPt",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "opday",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "OPday",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 3650.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "opdec",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "OPdec",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 3650.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "olevel",
+    "olevhalf"
+  ],
+  "id": "opdeclev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "OPdecLev",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 3650.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "opdecz",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "OPdecZ",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "opfx",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "OPfx",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "opmon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "OPmon",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "opmonclim",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "OPmonClim",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "olevel",
+    "olevhalf"
+  ],
+  "id": "opmonclimlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "OPmonClimLev",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "olevel",
+    "olevhalf"
+  ],
+  "id": "opmonlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "OPmonLev",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "opmonz",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "OPmonZ",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 365.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "opyr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "OPyr",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 365.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "olevel",
+    "olevhalf"
+  ],
+  "id": "opyrlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "OPyrLev",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "siday",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "SIday",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "simon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "table_id": "SImon",
+  "type": "mip_table"
+}
+    ,{
+  "Conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "simonpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "table_id": "SImonPt",
+  "type": "mip_table"
+}
+  ]
+}

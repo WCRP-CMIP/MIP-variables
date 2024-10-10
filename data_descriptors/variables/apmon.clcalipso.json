@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "apmon.clcalipso",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "apmon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "time: mean",
+    "comment": "Percentage cloud cover in CALIPSO standard atmospheric layers.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alt40",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "CALIPSO Percentage Cloud Cover",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "clcalipso",
+    "positive": "",
+    "standard_name": "cloud_area_fraction_in_atmosphere_layer",
+    "units": "%",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

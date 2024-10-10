@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "aeday.zg100",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "aeday",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: time: mean",
+    "comment": "Geopotential height on the 100 hPa surface",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "p100"
+    ],
+    "frequency": "day",
+    "long_name": "Geopotential Height at 100hPa",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "zg100",
+    "positive": "",
+    "standard_name": "geopotential_height",
+    "units": "m",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

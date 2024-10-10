@@ -1,0 +1,36 @@
+{
+    "@context": "_context_",
+    "id": "opmonclim.difmxylo2d",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "opmonclim",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello",
+    "cell_methods": "area: mean time: mean within years time: mean over years",
+    "comment": "Lateral Laplacian viscosity applied to the momentum equations.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time2"
+    ],
+    "frequency": "monC",
+    "long_name": "Ocean Momentum XY Laplacian Diffusivity",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "difmxylo2d",
+    "positive": "",
+    "standard_name": "ocean_momentum_xy_laplacian_diffusivity",
+    "units": "m2 s-1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

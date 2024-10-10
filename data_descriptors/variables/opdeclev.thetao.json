@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "opdeclev.thetao",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "opdeclev",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "area: mean where sea time: mean",
+    "comment": "Diagnostic should be contributed even for models using conservative temperature as prognostic field.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "dec",
+    "long_name": "Sea Water Potential Temperature",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "thetao",
+    "positive": "",
+    "standard_name": "sea_water_potential_temperature",
+    "units": "degC",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}
