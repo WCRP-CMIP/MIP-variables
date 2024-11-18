@@ -1,5 +1,5 @@
 {
-  "@context":"https://WCRP-CMIP.github.io/MIP-variables/_context"
+  "@context":"https://WCRP-CMIP.github.io/MIP-variables/collections/_context"
   "description":"MIP CMOR tables as used by CMIP6Plus",
   "project":["cmip6plus"],
   "tables": [
