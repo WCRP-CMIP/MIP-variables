@@ -1,7 +1,7 @@
 {
   "@context":"https://WCRP-CMIP.github.io/MIP-variables/_context"
-  "description":"MIP CMOR tables as used by CMIP6Plus"
-  "project":["cmip6plus"]
+  "description":"MIP CMOR tables as used by CMIP6Plus",
+  "project":["cmip6plus"],
   "tables": [
     "ACmon",
     "ACmonZ",
