@@ -1,5 +1,5 @@
 {
-  "@context": "https://wcrp-cmip.github.io/MIP_variables/data_descriptors/variables/_context",
+  "@context": "_context_",
   "id": "apmonlev.tntrlcs.json",
   "type": "mip-variable",
   "mip_tables": [

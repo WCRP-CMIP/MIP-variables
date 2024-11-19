@@ -66,5 +66,6 @@
       "valid_max": "",
       "valid_min": ""
     }
-  }
+  },
+  "@context": "_context_"
 }
