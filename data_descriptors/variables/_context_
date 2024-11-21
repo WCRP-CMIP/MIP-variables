@@ -1,0 +1,15 @@
+{
+    "@context": [
+        "../_context_",
+        {
+            "@base": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/variables/",
+            "@vocab": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/variables/",
+            "mip_tables": {
+                "@reverse": "https://wcrp-cmip.github.io/MIP_variables/tables/variable_entry",
+                "@container": "@id",
+                "@context": "https://wcrp-cmip.github.io/MIP_variables/tables/_context_"
+            }
+        }
+    ],
+    "@embed": "@always"
+}
