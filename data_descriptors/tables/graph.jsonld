@@ -11,10 +11,10 @@
   "wcrp-universe": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/",
   "product": {
     "@type": "@id",
-    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/product/_context"
+    "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/product/_context_"
   },
   "variable_entry": {
-    "@context": "https://wcrp-cmip.github.io/MIP_variables/variables/_context"
+    "@context": "https://wcrp-cmip.github.io/MIP_variables/variables/_context_"
   }
 },
   "@graph": [
