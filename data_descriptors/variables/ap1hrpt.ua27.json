@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "ap1hrpt.ua27",
     "type": "mip-variable",
-    "mip_tables": {
-        "ap1hrpt": {
+    "mip_tables": [
+        {
+            "@id": "ap1hrpt",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

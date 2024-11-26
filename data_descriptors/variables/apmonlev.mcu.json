@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "apmonlev.mcu",
     "type": "mip-variable",
-    "mip_tables": {
-        "apmonlev": {
+    "mip_tables": [
+        {
+            "@id": "apmonlev",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

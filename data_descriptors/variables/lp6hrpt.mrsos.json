@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "lp6hrpt.mrsos",
     "type": "mip-variable",
-    "mip_tables": {
-        "lp6hrpt": {
+    "mip_tables": [
+        {
+            "@id": "lp6hrpt",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

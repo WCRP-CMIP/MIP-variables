@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "opmonz.htovovrt",
     "type": "mip-variable",
-    "mip_tables": {
-        "opmonz": {
+    "mip_tables": [
+        {
+            "@id": "opmonz",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

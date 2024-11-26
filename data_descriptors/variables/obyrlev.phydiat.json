@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "obyrlev.phydiat",
     "type": "mip-variable",
-    "mip_tables": {
-        "obyrlev": {
+    "mip_tables": [
+        {
+            "@id": "obyrlev",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

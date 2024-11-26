@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "ae6hrpt.zg500",
     "type": "mip-variable",
-    "mip_tables": {
-        "ae6hrpt": {
+    "mip_tables": [
+        {
+            "@id": "ae6hrpt",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

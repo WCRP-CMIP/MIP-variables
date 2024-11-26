@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "gigyr.licalvf",
     "type": "mip-variable",
-    "mip_tables": {
-        "gigyr": {
+    "mip_tables": [
+        {
+            "@id": "gigyr",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

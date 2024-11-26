@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "ap6hrptz.zmlwaero",
     "type": "mip-variable",
-    "mip_tables": {
-        "ap6hrptz": {
+    "mip_tables": [
+        {
+            "@id": "ap6hrptz",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

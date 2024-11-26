@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "opmonlev.masscello",
     "type": "mip-variable",
-    "mip_tables": {
-        "opmonlev": {
+    "mip_tables": [
+        {
+            "@id": "opmonlev",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

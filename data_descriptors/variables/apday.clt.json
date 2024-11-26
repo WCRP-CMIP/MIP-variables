@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "apday.clt",
     "type": "mip-variable",
-    "mip_tables": {
-        "apday": {
+    "mip_tables": [
+        {
+            "@id": "apday",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

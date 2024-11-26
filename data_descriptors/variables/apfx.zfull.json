@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "apfx.zfull",
     "type": "mip-variable",
-    "mip_tables": {
-        "apfx": {
+    "mip_tables": [
+        {
+            "@id": "apfx",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "apmon.pr2h",
     "type": "mip-variable",
-    "mip_tables": {
-        "apmon": {
+    "mip_tables": [
+        {
+            "@id": "apmon",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

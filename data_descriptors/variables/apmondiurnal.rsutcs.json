@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "apmondiurnal.rsutcs",
     "type": "mip-variable",
-    "mip_tables": {
-        "apmondiurnal": {
+    "mip_tables": [
+        {
+            "@id": "apmondiurnal",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

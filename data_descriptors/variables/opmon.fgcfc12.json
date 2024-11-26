@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "opmon.fgcfc12",
     "type": "mip-variable",
-    "mip_tables": {
-        "opmon": {
+    "mip_tables": [
+        {
+            "@id": "opmon",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

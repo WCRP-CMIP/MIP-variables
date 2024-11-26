@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "opdecz.hfbasin",
     "type": "mip-variable",
-    "mip_tables": {
-        "opdecz": {
+    "mip_tables": [
+        {
+            "@id": "opdecz",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

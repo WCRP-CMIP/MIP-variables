@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "opfx.ugrido",
     "type": "mip-variable",
-    "mip_tables": {
-        "opfx": {
+    "mip_tables": [
+        {
+            "@id": "opfx",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

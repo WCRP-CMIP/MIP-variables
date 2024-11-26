@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "ap6hr.hurs",
     "type": "mip-variable",
-    "mip_tables": {
-        "ap6hr": {
+    "mip_tables": [
+        {
+            "@id": "ap6hr",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

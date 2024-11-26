@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "giamon.prsn",
     "type": "mip-variable",
-    "mip_tables": {
-        "giamon": {
+    "mip_tables": [
+        {
+            "@id": "giamon",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

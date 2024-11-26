@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "lpyrpt.clitterlut",
     "type": "mip-variable",
-    "mip_tables": {
-        "lpyrpt": {
+    "mip_tables": [
+        {
+            "@id": "lpyrpt",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "obday.chlos",
     "type": "mip-variable",
-    "mip_tables": {
-        "obday": {
+    "mip_tables": [
+        {
+            "@id": "obday",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "opyr.somint",
     "type": "mip-variable",
-    "mip_tables": {
-        "opyr": {
+    "mip_tables": [
+        {
+            "@id": "opyr",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

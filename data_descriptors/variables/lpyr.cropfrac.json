@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "lpyr.cropfrac",
     "type": "mip-variable",
-    "mip_tables": {
-        "lpyr": {
+    "mip_tables": [
+        {
+            "@id": "lpyr",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

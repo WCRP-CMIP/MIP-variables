@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "opmonclimlev.difmxybo",
     "type": "mip-variable",
-    "mip_tables": {
-        "opmonclimlev": {
+    "mip_tables": [
+        {
+            "@id": "opmonclimlev",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "limon.snc",
     "type": "mip-variable",
-    "mip_tables": {
-        "limon": {
+    "mip_tables": [
+        {
+            "@id": "limon",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

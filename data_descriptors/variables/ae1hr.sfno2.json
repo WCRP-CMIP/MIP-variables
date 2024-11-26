@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "ae1hr.sfno2",
     "type": "mip-variable",
-    "mip_tables": {
-        "ae1hr": {
+    "mip_tables": [
+        {
+            "@id": "ae1hr",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

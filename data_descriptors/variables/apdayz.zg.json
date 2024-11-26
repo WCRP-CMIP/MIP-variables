@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "apdayz.zg",
     "type": "mip-variable",
-    "mip_tables": {
-        "apdayz": {
+    "mip_tables": [
+        {
+            "@id": "apdayz",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

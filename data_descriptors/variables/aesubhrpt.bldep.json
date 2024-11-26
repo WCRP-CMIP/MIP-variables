@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "aesubhrpt.bldep",
     "type": "mip-variable",
-    "mip_tables": {
-        "aesubhrpt": {
+    "mip_tables": [
+        {
+            "@id": "aesubhrpt",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

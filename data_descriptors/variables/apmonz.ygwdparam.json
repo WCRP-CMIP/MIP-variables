@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "apmonz.ygwdparam",
     "type": "mip-variable",
-    "mip_tables": {
-        "apmonz": {
+    "mip_tables": [
+        {
+            "@id": "apmonz",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

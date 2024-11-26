@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "lpmon.sftgif",
     "type": "mip-variable",
-    "mip_tables": {
-        "lpmon": {
+    "mip_tables": [
+        {
+            "@id": "lpmon",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "ap3hrptlev.clws",
     "type": "mip-variable",
-    "mip_tables": {
-        "ap3hrptlev": {
+    "mip_tables": [
+        {
+            "@id": "ap3hrptlev",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

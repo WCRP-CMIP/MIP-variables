@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "aeday.od550aer",
     "type": "mip-variable",
-    "mip_tables": {
-        "aeday": {
+    "mip_tables": [
+        {
+            "@id": "aeday",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

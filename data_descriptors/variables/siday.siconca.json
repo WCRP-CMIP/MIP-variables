@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "siday.siconca",
     "type": "mip-variable",
-    "mip_tables": {
-        "siday": {
+    "mip_tables": [
+        {
+            "@id": "siday",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

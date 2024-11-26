@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "simonpt.sidivvel",
     "type": "mip-variable",
-    "mip_tables": {
-        "simonpt": {
+    "mip_tables": [
+        {
+            "@id": "simonpt",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

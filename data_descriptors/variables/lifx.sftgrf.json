@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "lifx.sftgrf",
     "type": "mip-variable",
-    "mip_tables": {
-        "lifx": {
+    "mip_tables": [
+        {
+            "@id": "lifx",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

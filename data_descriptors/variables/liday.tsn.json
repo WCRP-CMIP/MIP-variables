@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "liday.tsn",
     "type": "mip-variable",
-    "mip_tables": {
-        "liday": {
+    "mip_tables": [
+        {
+            "@id": "liday",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

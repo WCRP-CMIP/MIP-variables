@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "apsubhrpt.prc",
     "type": "mip-variable",
-    "mip_tables": {
-        "apsubhrpt": {
+    "mip_tables": [
+        {
+            "@id": "apsubhrpt",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

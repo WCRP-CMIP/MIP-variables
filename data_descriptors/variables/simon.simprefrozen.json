@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "simon.simprefrozen",
     "type": "mip-variable",
-    "mip_tables": {
-        "simon": {
+    "mip_tables": [
+        {
+            "@id": "simon",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

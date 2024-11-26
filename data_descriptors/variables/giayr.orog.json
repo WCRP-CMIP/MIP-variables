@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "giayr.orog",
     "type": "mip-variable",
-    "mip_tables": {
-        "giayr": {
+    "mip_tables": [
+        {
+            "@id": "giayr",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

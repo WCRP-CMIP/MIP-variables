@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "acmonz.vmrox",
     "type": "mip-variable",
-    "mip_tables": {
-        "acmonz": {
+    "mip_tables": [
+        {
+            "@id": "acmonz",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

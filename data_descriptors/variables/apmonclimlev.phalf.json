@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "apmonclimlev.phalf",
     "type": "mip-variable",
-    "mip_tables": {
-        "apmonclimlev": {
+    "mip_tables": [
+        {
+            "@id": "apmonclimlev",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

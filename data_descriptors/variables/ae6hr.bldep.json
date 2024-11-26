@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "ae6hr.bldep",
     "type": "mip-variable",
-    "mip_tables": {
-        "ae6hr": {
+    "mip_tables": [
+        {
+            "@id": "ae6hr",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "ap1hr.tas",
     "type": "mip-variable",
-    "mip_tables": {
-        "ap1hr": {
+    "mip_tables": [
+        {
+            "@id": "ap1hr",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

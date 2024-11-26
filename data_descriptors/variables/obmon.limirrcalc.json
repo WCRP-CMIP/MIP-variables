@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "obmon.limirrcalc",
     "type": "mip-variable",
-    "mip_tables": {
-        "obmon": {
+    "mip_tables": [
+        {
+            "@id": "obmon",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

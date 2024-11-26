@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "gigfx.topg",
     "type": "mip-variable",
-    "mip_tables": {
-        "gigfx": {
+    "mip_tables": [
+        {
+            "@id": "gigfx",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

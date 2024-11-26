@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "obyr.fg14co2abio",
     "type": "mip-variable",
-    "mip_tables": {
-        "obyr": {
+    "mip_tables": [
+        {
+            "@id": "obyr",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

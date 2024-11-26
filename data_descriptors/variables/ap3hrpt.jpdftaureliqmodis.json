@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "ap3hrpt.jpdftaureliqmodis",
     "type": "mip-variable",
-    "mip_tables": {
-        "ap3hrpt": {
+    "mip_tables": [
+        {
+            "@id": "ap3hrpt",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "obmonlev.nh4",
     "type": "mip-variable",
-    "mip_tables": {
-        "obmonlev": {
+    "mip_tables": [
+        {
+            "@id": "obmonlev",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

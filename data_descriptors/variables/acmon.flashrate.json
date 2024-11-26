@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "acmon.flashrate",
     "type": "mip-variable",
-    "mip_tables": {
-        "acmon": {
+    "mip_tables": [
+        {
+            "@id": "acmon",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

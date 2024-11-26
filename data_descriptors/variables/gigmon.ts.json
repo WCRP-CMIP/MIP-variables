@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "gigmon.ts",
     "type": "mip-variable",
-    "mip_tables": {
-        "gigmon": {
+    "mip_tables": [
+        {
+            "@id": "gigmon",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "apsubhrptlev.hus",
     "type": "mip-variable",
-    "mip_tables": {
-        "apsubhrptlev": {
+    "mip_tables": [
+        {
+            "@id": "apsubhrptlev",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

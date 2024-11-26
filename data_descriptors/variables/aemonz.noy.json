@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "aemonz.noy",
     "type": "mip-variable",
-    "mip_tables": {
-        "aemonz": {
+    "mip_tables": [
+        {
+            "@id": "aemonz",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

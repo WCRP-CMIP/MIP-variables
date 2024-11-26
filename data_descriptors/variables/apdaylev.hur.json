@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "apdaylev.hur",
     "type": "mip-variable",
-    "mip_tables": {
-        "apdaylev": {
+    "mip_tables": [
+        {
+            "@id": "apdaylev",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

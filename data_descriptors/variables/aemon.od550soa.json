@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "aemon.od550soa",
     "type": "mip-variable",
-    "mip_tables": {
-        "aemon": {
+    "mip_tables": [
+        {
+            "@id": "aemon",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

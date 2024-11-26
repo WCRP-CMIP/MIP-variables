@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "giafx.lithk",
     "type": "mip-variable",
-    "mip_tables": {
-        "giafx": {
+    "mip_tables": [
+        {
+            "@id": "giafx",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

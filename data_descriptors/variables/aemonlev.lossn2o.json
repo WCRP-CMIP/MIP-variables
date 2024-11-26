@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "aemonlev.lossn2o",
     "type": "mip-variable",
-    "mip_tables": {
-        "aemonlev": {
+    "mip_tables": [
+        {
+            "@id": "aemonlev",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

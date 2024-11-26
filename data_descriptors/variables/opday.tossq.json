@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "opday.tossq",
     "type": "mip-variable",
-    "mip_tables": {
-        "opday": {
+    "mip_tables": [
+        {
+            "@id": "opday",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "ap6hrpt.swsffluxaero",
     "type": "mip-variable",
-    "mip_tables": {
-        "ap6hrpt": {
+    "mip_tables": [
+        {
+            "@id": "ap6hrpt",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

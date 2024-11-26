@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "lpday.mrsos",
     "type": "mip-variable",
-    "mip_tables": {
-        "lpday": {
+    "mip_tables": [
+        {
+            "@id": "lpday",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

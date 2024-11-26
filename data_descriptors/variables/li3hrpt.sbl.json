@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "li3hrpt.sbl",
     "type": "mip-variable",
-    "mip_tables": {
-        "li3hrpt": {
+    "mip_tables": [
+        {
+            "@id": "li3hrpt",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

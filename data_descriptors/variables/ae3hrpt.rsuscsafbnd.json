@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "ae3hrpt.rsuscsafbnd",
     "type": "mip-variable",
-    "mip_tables": {
-        "ae3hrpt": {
+    "mip_tables": [
+        {
+            "@id": "ae3hrpt",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],

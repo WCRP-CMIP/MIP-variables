@@ -2,11 +2,12 @@
     "@context": "_context_",
     "id": "apmonclim.co2clim",
     "type": "mip-variable",
-    "mip_tables": {
-        "apmonclim": {
+    "mip_tables": [
+        {
+            "@id": "apmonclim",
             "mip-era": "cmip6plus"
         }
-    },
+    ],
     "themes": [
         "TBC"
     ],
