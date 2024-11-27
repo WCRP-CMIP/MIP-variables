@@ -4,7 +4,7 @@
   "@vocab": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/tables/",
   "id": "@id",
   "type": "@type",
-  "cf": "https://wcrp-cmip.github.io/WCRP-CMIP/CF/",
+  "cf": "https://wcrp-cmip.github.io/CF/",
   "cmip6plus": "https://wcrp-cmip.github.io/CMIP6Plus_CVs/",
   "cmip7": "https://wcrp-cmip.github.io/CMIP7_CVs/",
   "mip-variables": "https://wcrp-cmip.github.io/MIP-variables/",
@@ -14,7 +14,7 @@
     "@context": "https://wcrp-cmip.github.io/WCRP-UNIVERSE/product/_context_"
   },
   "variable_entry": {
-    "@context": "https://wcrp-cmip.github.io/MIP_variables/variables/_context_"
+    "@context": "https://wcrp-cmip.github.io/MIP-variables/variables/_context_"
   }
 },
   "@graph": [
