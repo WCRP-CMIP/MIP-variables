@@ -2,8 +2,8 @@
     "@context": [
         "../_context_",
         {
-            "@base": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/variables/",
-            "@vocab": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/variables/",
+            "@base": "https://wcrp-cmip.github.io/MIP-variables/variables/",
+            "@vocab": "https://wcrp-cmip.github.io/MIP-variables/variables/",
             "mip_tables": {
                 "@reverse": "https://wcrp-cmip.github.io/MIP-variables/tables/variable_entry",
                 "@context": "https://wcrp-cmip.github.io/MIP-variables/tables/_context_"
