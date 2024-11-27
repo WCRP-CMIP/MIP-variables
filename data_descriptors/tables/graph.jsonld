@@ -1,7 +1,7 @@
 {
   "@context": {
-  "@base": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/tables/",
-  "@vocab": "https://wcrp-cmip.github.io/CMIP6Plus_MIP_variables/tables/",
+  "@base": "https://wcrp-cmip.github.io/MIP-variables/tables/",
+  "@vocab": "https://wcrp-cmip.github.io/MIP-variables/tables/",
   "id": "@id",
   "type": "@type",
   "cf": "https://wcrp-cmip.github.io/CF/",
