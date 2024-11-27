@@ -1,0 +1,36 @@
+{
+    "@context": "_context_",
+    "id": "simonpt.sidivvel",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "simonpt",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello",
+    "cell_methods": "area: mean where sea_ice (comment: mask=siconc) time: point",
+    "comment": "Divergence of sea-ice velocity field (first shear strain invariant)",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "frequency": "monPt",
+    "long_name": "Divergence of the Sea-Ice Velocity Field",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "sidivvel",
+    "positive": "",
+    "standard_name": "divergence_of_sea_ice_velocity",
+    "units": "s-1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

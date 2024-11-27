@@ -1,0 +1,34 @@
+{
+    "@context": "_context_",
+    "id": "giayr.lim",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "giayr",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "",
+    "cell_methods": "area: sum where ice_sheet time: mean",
+    "comment": "The ice sheet mass is computed as the volume times density",
+    "dimensions": [
+        "time"
+    ],
+    "frequency": "yr",
+    "long_name": "Ice Sheet Mass",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "lim",
+    "positive": "",
+    "standard_name": "land_ice_mass",
+    "units": "kg",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

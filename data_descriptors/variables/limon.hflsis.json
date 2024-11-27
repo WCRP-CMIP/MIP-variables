@@ -1,0 +1,36 @@
+{
+    "@context": "_context_",
+    "id": "limon.hflsis",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "limon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: time: mean where ice_sheet",
+    "comment": "Upward latent heat flux from the ice sheet surface",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Ice Sheet Surface Upward Latent Heat Flux",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "hflsIs",
+    "positive": "up",
+    "standard_name": "surface_upward_latent_heat_flux",
+    "units": "W m-2",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}
