@@ -10,7 +10,8 @@
     "int_missing_value": "-999",
     "missing_value": "1e20",
     "product": [
-        "model-output"
+        "model-output",
+        "observations"
     ],
     "table_date": "2024-02-28",
     "table_id": "SImon",

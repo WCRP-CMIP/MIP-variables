@@ -6,6 +6,10 @@
         {
             "@id": "simon",
             "mip-era": "cmip6plus"
+        },
+        {
+            "@id": "simon",
+            "mip-era": "obs4mips"
         }
     ],
     "themes": [
