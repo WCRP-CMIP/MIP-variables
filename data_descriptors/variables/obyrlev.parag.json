@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "obyrlev.parag",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "obyrlev",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "area: mean where sea time: mean",
+    "comment": "Production rate of Aragonite, a mineral that is a polymorph of calcium carbonate. The chemical formula of aragonite is CaCO3.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "yr",
+    "long_name": "Aragonite Production",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "parag",
+    "positive": "",
+    "standard_name": "tendency_of_mole_concentration_of_aragonite_expressed_as_carbon_in_sea_water_due_to_biological_production",
+    "units": "mol m-3 s-1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

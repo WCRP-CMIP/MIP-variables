@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "apmon.va7h",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "apmon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: time: mean",
+    "comment": "Meridional wind (positive in a northward direction).",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev7h",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Northward Wind",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "va7h",
+    "positive": "",
+    "standard_name": "northward_wind",
+    "units": "m s-1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

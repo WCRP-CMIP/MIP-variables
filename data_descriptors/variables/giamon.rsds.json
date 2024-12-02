@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "giamon.rsds",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "giamon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacellg",
+    "cell_methods": "area: time: mean where ice_sheet",
+    "comment": "Surface solar irradiance for UV calculations.",
+    "dimensions": [
+        "xant",
+        "yant",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Surface Downwelling Shortwave Radiation",
+    "modeling_realm": [
+        "landIce",
+        "land"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "rsds",
+    "positive": "down",
+    "standard_name": "surface_downwelling_shortwave_flux_in_air",
+    "units": "W m-2",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

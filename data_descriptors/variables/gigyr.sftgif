@@ -1,0 +1,36 @@
+{
+    "@context": "_context_",
+    "id": "gigyr.sftgif",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "gigyr",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacellg",
+    "cell_methods": "area: time: mean",
+    "comment": "Percentage of grid cell covered by land ice (ice sheet, ice shelf, ice cap, glacier)",
+    "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "frequency": "yr",
+    "long_name": "Land Ice Area Percentage",
+    "modeling_realm": [
+        "land"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "sftgif",
+    "positive": "",
+    "standard_name": "land_ice_area_fraction",
+    "units": "%",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

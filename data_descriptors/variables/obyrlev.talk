@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "obyrlev.talk",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "obyrlev",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "area: mean where sea time: mean",
+    "comment": "total alkalinity equivalent concentration (including carbonate, nitrogen, silicate, and borate components)",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "yr",
+    "long_name": "Total Alkalinity",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "talk",
+    "positive": "",
+    "standard_name": "sea_water_alkalinity_expressed_as_mole_equivalent",
+    "units": "mol m-3",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

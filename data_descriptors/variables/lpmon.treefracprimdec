@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "lpmon.treefracprimdec",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "lpmon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "comment": "Percentage of the entire grid cell  that is covered by total primary deciduous trees.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typepdec"
+    ],
+    "frequency": "mon",
+    "long_name": "Percentage Cover by Primary Deciduous Tree",
+    "modeling_realm": [
+        "land"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "treeFracPrimDec",
+    "positive": "",
+    "standard_name": "area_fraction",
+    "units": "%",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

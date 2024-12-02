@@ -1,0 +1,35 @@
+{
+    "@context": "_context_",
+    "id": "lpfx.areacellr",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "lpfx",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "",
+    "cell_methods": "area: sum",
+    "comment": "For river routing model, if grid differs from the atmospheric grid.",
+    "dimensions": [
+        "longitude",
+        "latitude"
+    ],
+    "frequency": "fx",
+    "long_name": "Grid-Cell Area for River Model Variables",
+    "modeling_realm": [
+        "land"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "areacellr",
+    "positive": "",
+    "standard_name": "cell_area",
+    "units": "m2",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

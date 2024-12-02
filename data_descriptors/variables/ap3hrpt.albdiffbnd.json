@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "ap3hrpt.albdiffbnd",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "ap3hrpt",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "time: point",
+    "comment": "The fraction of the surface diffuse downwelling shortwave radiation flux which is reflected. If the diffuse radiation is isotropic, this term is equivalent to the integral of surface bidirectional reflectance over all incident angles and over all outgoing angles in the hemisphere above the surface. Reported in spectral frequency bands.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "spectband",
+        "time1"
+    ],
+    "frequency": "3hrPt",
+    "long_name": "Diffuse Surface Albedo for Each Band",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "albdiffbnd",
+    "positive": "",
+    "standard_name": "surface_diffuse_shortwave_hemispherical_reflectance",
+    "units": "1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

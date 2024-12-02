@@ -1,0 +1,37 @@
+{
+    "@context": "_context_",
+    "id": "lp6hrpt.tsl",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "lp6hrpt",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: mean where land time: point",
+    "comment": "Temperature of soil. Reported as missing for grid cells with no land.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "sdepth1"
+    ],
+    "frequency": "6hrPt",
+    "long_name": "Temperature of Soil",
+    "modeling_realm": [
+        "land"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "tsl",
+    "positive": "",
+    "standard_name": "soil_temperature",
+    "units": "K",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

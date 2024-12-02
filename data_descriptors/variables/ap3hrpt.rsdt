@@ -1,0 +1,36 @@
+{
+    "@context": "_context_",
+    "id": "ap3hrpt.rsdt",
+    "type": "mip-variable",
+    "mip_tables": [
+        {
+            "@id": "ap3hrpt",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: mean time: point",
+    "comment": "Shortwave radiation incident at the top of the atmosphere",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "frequency": "3hrPt",
+    "long_name": "TOA Incident Shortwave Radiation",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "rsdt",
+    "positive": "down",
+    "standard_name": "toa_incoming_shortwave_flux",
+    "units": "W m-2",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}
