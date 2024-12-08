@@ -1,0 +1,39 @@
+{
+    "@context": "_context_",
+    "id": "lpday.es",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "lpday",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: mean where land time: mean",
+    "comment": "Water here means water in all phases. Evaporation is the conversion of liquid or solid into vapor. (The conversion of solid alone into vapor is called 'sublimation'.) In accordance with common usage in geophysical disciplines, 'flux' implies per unit area, called 'flux density' in physics.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "day",
+    "long_name": "Bare Soil Evaporation",
+    "modeling_realm": [
+        "land"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "es",
+    "positive": "",
+    "standard_name": "water_evaporation_flux_from_soil",
+    "units": "kg m-2 s-1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

@@ -1,0 +1,43 @@
+{
+    "@context": "_context_",
+    "id": "simon.sisaltmass",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "simon",
+            "mip-era": "cmip6plus"
+        },
+        {
+            "@id": "simon",
+            "mip-era": "obs4mips"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello",
+    "cell_methods": "area: mean where sea time: mean",
+    "comment": "Total mass of all salt in sea ice divided by grid-cell area",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Mass of Salt in Sea Ice per Area",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "sisaltmass",
+    "positive": "",
+    "standard_name": "sea_ice_mass_content_of_salt",
+    "units": "kg m-2",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

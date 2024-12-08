@@ -1,0 +1,39 @@
+{
+    "@context": "_context_",
+    "id": "obyr.fgco2abio",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "obyr",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello",
+    "cell_methods": "area: mean where sea time: mean",
+    "comment": "Gas exchange flux of abiotic CO2 (positive into ocean)",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "yr",
+    "long_name": "Surface Downward Mass Flux of Carbon as Abiotic CO2 [kgC m-2 s-1]",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "fgco2abio",
+    "positive": "down",
+    "standard_name": "surface_downward_mass_flux_of_carbon_dioxide_abiotic_analogue_expressed_as_carbon",
+    "units": "kg m-2 s-1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

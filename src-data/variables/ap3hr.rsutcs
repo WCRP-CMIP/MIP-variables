@@ -1,0 +1,39 @@
+{
+    "@context": "_context_",
+    "id": "ap3hr.rsutcs",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "ap3hr",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: time: mean",
+    "comment": "Calculated in the absence of clouds.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "3hr",
+    "long_name": "TOA Outgoing Clear-Sky Shortwave Radiation",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "rsutcs",
+    "positive": "up",
+    "standard_name": "toa_outgoing_shortwave_flux_assuming_clear_sky",
+    "units": "W m-2",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

@@ -1,0 +1,40 @@
+{
+    "@context": "_context_",
+    "id": "obmonlev.co3",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "obmonlev",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "area: mean where sea time: mean",
+    "comment": "Mole concentration (number of moles per unit volume: molarity) of the carbonate anion (CO3).",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Carbonate Ion Concentration",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "co3",
+    "positive": "",
+    "standard_name": "mole_concentration_of_carbonate_expressed_as_carbon_in_sea_water",
+    "units": "mol m-3",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

@@ -1,0 +1,39 @@
+{
+    "@context": "_context_",
+    "id": "giayr.sftgrf",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "giayr",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacellg",
+    "cell_methods": "area: time: mean",
+    "comment": "Percentage of grid cell covered by grounded ice sheet",
+    "dimensions": [
+        "xant",
+        "yant",
+        "time"
+    ],
+    "frequency": "yr",
+    "long_name": "Grounded Ice Sheet Area Percentage",
+    "modeling_realm": [
+        "landIce"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "sftgrf",
+    "positive": "",
+    "standard_name": "grounded_ice_sheet_area_fraction",
+    "units": "%",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

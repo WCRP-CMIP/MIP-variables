@@ -1,0 +1,39 @@
+{
+    "@context": "_context_",
+    "id": "ap3hrpt.sza",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "ap3hrpt",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: mean time: point",
+    "comment": "The angle between the line of sight to the sun and the local vertical",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "frequency": "3hrPt",
+    "long_name": "Solar Zenith Angle",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "sza",
+    "positive": "",
+    "standard_name": "solar_zenith_angle",
+    "units": "degree",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

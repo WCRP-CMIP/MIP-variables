@@ -1,0 +1,40 @@
+{
+    "@context": "_context_",
+    "id": "lpmon.vegfrac",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "lpmon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: mean where land over all_area_types time: mean",
+    "comment": "Percentage of grid cell that is covered by vegetation.This SHOULD be the sum of tree, grass (natural and pasture), crop and shrub fractions.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time",
+        "typeveg"
+    ],
+    "frequency": "mon",
+    "long_name": "Total Vegetated Percentage Cover",
+    "modeling_realm": [
+        "land"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "vegFrac",
+    "positive": "",
+    "standard_name": "area_fraction",
+    "units": "%",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

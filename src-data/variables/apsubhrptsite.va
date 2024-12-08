@@ -1,0 +1,39 @@
+{
+    "@context": "_context_",
+    "id": "apsubhrptsite.va",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "apsubhrptsite",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "",
+    "cell_methods": "area: point time: point",
+    "comment": "Meridional wind (positive in a northward direction).",
+    "dimensions": [
+        "alevel",
+        "site",
+        "time1"
+    ],
+    "frequency": "subhrPt",
+    "long_name": "Northward Wind",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "va",
+    "positive": "",
+    "standard_name": "northward_wind",
+    "units": "m s-1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

@@ -1,0 +1,39 @@
+{
+    "@context": "_context_",
+    "id": "lpday.mrsow",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "lpday",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: mean where land time: mean",
+    "comment": "Vertically integrated soil moisture divided by maximum allowable soil moisture above wilting point.",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "day",
+    "long_name": "Total Soil Wetness",
+    "modeling_realm": [
+        "land"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "mrsow",
+    "positive": "",
+    "standard_name": "volume_fraction_of_condensed_water_in_soil_at_field_capacity",
+    "units": "1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

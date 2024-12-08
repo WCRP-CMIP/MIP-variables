@@ -1,0 +1,40 @@
+{
+    "@context": "_context_",
+    "id": "ap3hrpt.clhcalipso",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "ap3hrpt",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: mean time: point",
+    "comment": "Percentage cloud cover in layer centred on 220hPa",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "p220"
+    ],
+    "frequency": "3hrPt",
+    "long_name": "CALIPSO High Level Cloud Area Percentage",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "clhcalipso",
+    "positive": "",
+    "standard_name": "cloud_area_fraction_in_atmosphere_layer",
+    "units": "%",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

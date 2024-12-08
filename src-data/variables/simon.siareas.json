@@ -1,0 +1,41 @@
+{
+    "@context": "_context_",
+    "id": "simon.siareas",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "simon",
+            "mip-era": "cmip6plus"
+        },
+        {
+            "@id": "simon",
+            "mip-era": "obs4mips"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "",
+    "cell_methods": "area: time: mean",
+    "comment": "total area of sea ice in the Southern hemisphere",
+    "dimensions": [
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Sea-Ice Area South",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "siareas",
+    "positive": "",
+    "standard_name": "sea_ice_area",
+    "units": "1e6 km2",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

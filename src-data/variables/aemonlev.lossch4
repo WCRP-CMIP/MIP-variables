@@ -1,0 +1,40 @@
+{
+    "@context": "_context_",
+    "id": "aemonlev.lossch4",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "aemonlev",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: time: mean",
+    "comment": "monthly averaged atmospheric loss",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevel",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Monthly Loss of Atmospheric Methane",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "lossch4",
+    "positive": "",
+    "standard_name": "tendency_of_atmosphere_mole_concentration_of_methane_due_to_chemical_destruction",
+    "units": "mol m-3 s-1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

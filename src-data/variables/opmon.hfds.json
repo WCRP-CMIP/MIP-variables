@@ -1,0 +1,39 @@
+{
+    "@context": "_context_",
+    "id": "opmon.hfds",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "opmon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello",
+    "cell_methods": "area: mean where sea time: mean",
+    "comment": "This is the net flux of heat entering the liquid water column through its upper surface (excluding any 'flux adjustment') .",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Downward Heat Flux at Sea Water Surface",
+    "modeling_realm": [
+        "ocean"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "hfds",
+    "positive": "down",
+    "standard_name": "surface_downward_heat_flux_in_sea_water",
+    "units": "W m-2",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}
