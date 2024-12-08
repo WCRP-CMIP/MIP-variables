@@ -13,8 +13,8 @@ def sd(dct):
     return {key: dct[key] for key in sorted(dct)}
 
 # Base URL for data descriptors
-# basepath = 'http://localhost:8000/data_descriptors/'
-basepath = 'https://wcrp-cmip.github.io/MIP_variables/data_descriptors/'
+# basepath = 'http://localhost:8000/src-data/'
+basepath = 'https://wcrp-cmip.github.io/MIP_variables/src-data/'
 
 
 
@@ -61,8 +61,8 @@ def writevar(v, t):
         **v
     }
 
-    # Write the variable JSON file to the data_descriptors/variables directory
-    with open(f'../data_descriptors/variables/{nid}.json', 'w') as f:
+    # Write the variable JSON file to the src-data/variables directory
+    with open(f'../src-data/variables/{nid}.json', 'w') as f:
         json.dump(vardata, f, indent=2)
 
 # ##################################
@@ -108,7 +108,7 @@ for i in tables:
     
     # table context 
     tctx = ctxbase('tables/',table_additional)
-    with open(f'../data_descriptors/tables/_context', 'w') as f:
+    with open(f'../src-data/tables/_context', 'w') as f:
         json.dump(tctx, f, indent=2)
 
     # Create table JSON with the appropriate context and metadata
@@ -119,7 +119,7 @@ for i in tables:
         **header
     }
     # Write the table descriptor to file
-    with open(f'../data_descriptors/tables/{table.lower()}.json', 'w') as f:
+    with open(f'../src-data/tables/{table.lower()}.json', 'w') as f:
         json.dump(tjson, f, indent=2)
 
 
@@ -146,7 +146,7 @@ for i in tables:
     # }
     # Create a context for variables and write the context file
     vcontext = ctxbase('variables/', variable_additional)
-    with open(f'../data_descriptors/variables/_context', 'w') as f:
+    with open(f'../src-data/variables/_context', 'w') as f:
         json.dump(vcontext, f, indent=2)
 
     # Write variables in parallel (efficient for large datasets)
@@ -160,8 +160,8 @@ for i in tables:
 # generate graphs 
 ##############################################
 import os
-os.system('./ld2graph.sh ../data_descriptors/tables/')
-os.system('./ld2graph.sh ../data_descriptors/variables/')
+os.system('./ld2graph.sh ../src-data/tables/')
+os.system('./ld2graph.sh ../src-data/variables/')
 
 
 

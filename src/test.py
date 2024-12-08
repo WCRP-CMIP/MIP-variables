@@ -4,7 +4,7 @@ import os
 from jsonschema import validate, ValidationError
 
 '''
- pytest conftest.py --dir ../data_descriptors/variables/
+ pytest conftest.py --dir ../src-data/variables/
 '''
 
 # Set a default path for the directory
