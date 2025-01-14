@@ -1,0 +1,43 @@
+{
+    "@context": "_context_",
+    "id": "simon.siforcecoriolx",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "simon",
+            "mip-era": "cmip6plus"
+        },
+        {
+            "@id": "simon",
+            "mip-era": "obs4mips"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "--MODEL",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "comment": "X-component of force on sea ice caused by coriolis force",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Coriolis Force Term in Force Balance (X-Component)",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "siforcecoriolx",
+    "positive": "",
+    "standard_name": "sea_ice_x_force_per_unit_area_due_to_coriolis_effect",
+    "units": "N m-2",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

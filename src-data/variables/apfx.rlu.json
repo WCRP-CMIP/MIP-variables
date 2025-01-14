@@ -1,0 +1,38 @@
+{
+    "@context": "_context_",
+    "id": "apfx.rlu",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "apfx",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "",
+    "cell_methods": "area: point",
+    "comment": "Upwelling longwave radiation (includes the fluxes at the surface and TOA)",
+    "dimensions": [
+        "alevhalf",
+        "spectband"
+    ],
+    "frequency": "fx",
+    "long_name": "Upwelling Longwave Radiation",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "rlu",
+    "positive": "up",
+    "standard_name": "upwelling_longwave_flux_in_air",
+    "units": "W m-2",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

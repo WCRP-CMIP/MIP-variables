@@ -1,0 +1,39 @@
+{
+    "@context": "_context_",
+    "id": "aemonz.h2o",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "aemonz",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "",
+    "cell_methods": "longitude: mean time: mean",
+    "comment": "includes all phases of water",
+    "dimensions": [
+        "latitude",
+        "plev39",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Mass Fraction of Water",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "h2o",
+    "positive": "",
+    "standard_name": "mass_fraction_of_water_in_air",
+    "units": "1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

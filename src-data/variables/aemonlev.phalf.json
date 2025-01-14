@@ -1,0 +1,40 @@
+{
+    "@context": "_context_",
+    "id": "aemonlev.phalf",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "aemonlev",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: time: mean",
+    "comment": "Air pressure on model half-levels",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "alevhalf",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Pressure on Model Half-Levels",
+    "modeling_realm": [
+        "aerosol"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "phalf",
+    "positive": "",
+    "standard_name": "air_pressure",
+    "units": "Pa",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

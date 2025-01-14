@@ -1,0 +1,40 @@
+{
+    "@context": "_context_",
+    "id": "apmon.grplmxrat27",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "apmon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "time: mean",
+    "comment": "Graupel mixing ratio",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "plev27",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Graupel Mixing Ratio",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "grplmxrat27",
+    "positive": "",
+    "standard_name": "mass_fraction_of_graupel_in_air",
+    "units": "1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}
