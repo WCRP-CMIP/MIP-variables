@@ -1,0 +1,40 @@
+{
+    "@context": "_context_",
+    "id": "obyrlev.dissi13c",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "obyrlev",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello volume: volcello",
+    "cell_methods": "area: mean where sea time: mean",
+    "comment": "Dissolved inorganic carbon-13 (CO3+HCO3+H2CO3) concentration",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "olevel",
+        "time"
+    ],
+    "frequency": "yr",
+    "long_name": "Dissolved Inorganic Carbon-13 Concentration",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "dissi13c",
+    "positive": "",
+    "standard_name": "mole_concentration_of_dissolved_inorganic_13C_in_sea_water",
+    "units": "mol m-3",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

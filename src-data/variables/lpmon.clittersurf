@@ -1,0 +1,39 @@
+{
+    "@context": "_context_",
+    "id": "lpmon.clittersurf",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "lpmon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: mean where land time: mean",
+    "comment": "Surface or near-surface litter pool fed by leaf and above-ground litterfall",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Carbon Mass in Above-Ground Litter",
+    "modeling_realm": [
+        "land"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "cLitterSurf",
+    "positive": "",
+    "standard_name": "surface_litter_mass_content_of_carbon",
+    "units": "kg m-2",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

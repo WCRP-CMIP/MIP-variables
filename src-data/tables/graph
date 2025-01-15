@@ -1,0 +1,1609 @@
+{
+  "@context": {
+  "@base": "https://wcrp-cmip.github.io/MIP-variables/tables/",
+  "@vocab": "https://wcrp-cmip.github.io/MIP-variables/tables/",
+  "id": "@id",
+  "type": "@type",
+  "cf": "https://wcrp-cmip.github.io/CF/",
+  "cmip6plus": "https://wcrp-cmip.github.io/CMIP6Plus_CVs/",
+  "cmip7": "https://wcrp-cmip.github.io/CMIP7_CVs/",
+  "obs4mips": "https://wolfiex.github.io/obs4MIPs-cmor-tables-ld/",
+  "universal": "https://wcrp-cmip.github.io/WCRP-universe/",
+  "variables": "https://wcrp-cmip.github.io/MIP-variables/",
+  "product": {
+    "@type": "@id",
+    "@context": "https://wcrp-cmip.github.io/WCRP-universe/product/_context_"
+  },
+  "variable_entry": {
+    "@context": "https://wcrp-cmip.github.io/MIP-variables/variables/_context_"
+  }
+},
+  "@graph": [
+    {
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "acmon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "ACmon"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "acmonz",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "ACmonZ"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.041667,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ae1hr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AE1hr"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ae3hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AE3hrPt"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "ae3hrptlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AE3hrPtLev"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ae6hr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AE6hr"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ae6hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AE6hrPt"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "ae6hrptlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AE6hrPtLev"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "aeday",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AEday"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "aemon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AEmon"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "aemonlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AEmonLev"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "aemonz",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AEmonZ"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.017361,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "aesubhrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AEsubhrPt"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.017361,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "aesubhrptsite",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AEsubhrPtSite"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.041667,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ap1hr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AP1hr"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.041667,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ap1hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AP1hrPt"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ap3hr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AP3hr"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ap3hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AP3hrPt"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "ap3hrptlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AP3hrPtLev"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ap6hr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AP6hr"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ap6hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AP6hrPt"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "ap6hrptlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AP6hrPtLev"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "ap6hrptz",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "AP6hrPtZ"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apday",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "APday"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "apdaylev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "APdayLev"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apdayz",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "APdayZ"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apfx",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "APfx"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apmon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "APmon"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apmonclim",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "APmonClim"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "apmonclimlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "APmonClimLev"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.041667,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apmondiurnal",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "APmonDiurnal"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "apmonlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "APmonLev"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apmonz",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "APmonZ"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.017361,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apsubhrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "APsubhrPt"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.017361,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "alevel",
+    "alevhalf"
+  ],
+  "id": "apsubhrptlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "APsubhrPtLev"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.017361,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "apsubhrptsite",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "APsubhrPtSite"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "giafx",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "GIAfx"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "giamon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "GIAmon"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 365.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "giayr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "GIAyr"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "gigfx",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "GIGfx"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "gigmon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "GIGmon"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 365.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "gigyr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "GIGyr"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "li3hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "LI3hrPt"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "li6hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "LI6hrPt"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "liday",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "LIday"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lifx",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "LIfx"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "limon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "LImon"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.017361,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lisubhrptsite",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "LIsubhrPtSite"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lp3hr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "LP3hr"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lp3hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "LP3hrPt"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.25,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lp6hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "LP6hrPt"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lpday",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "LPday"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lpfx",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "LPfx"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lpmon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "LPmon"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 365.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lpyr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "LPyr"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 365.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "lpyrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "LPyrPt"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "obday",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OBday"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "obmon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OBmon"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "olevel",
+    "olevhalf"
+  ],
+  "id": "obmonlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OBmonLev"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 365.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "obyr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OByr"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 365.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "olevel",
+    "olevhalf"
+  ],
+  "id": "obyrlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OByrLev"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.125,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "op3hrpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OP3hrPt"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "opday",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OPday"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 3650.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "opdec",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OPdec"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 3650.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "olevel",
+    "olevhalf"
+  ],
+  "id": "opdeclev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OPdecLev"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 3650.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "opdecz",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OPdecZ"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 0.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "opfx",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OPfx"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "opmon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OPmon"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "opmonclim",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OPmonClim"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "olevel",
+    "olevhalf"
+  ],
+  "id": "opmonclimlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OPmonClimLev"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "olevel",
+    "olevhalf"
+  ],
+  "id": "opmonlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OPmonLev"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "opmonz",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OPmonZ"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 365.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "opyr",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OPyr"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 365.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": [
+    "olevel",
+    "olevhalf"
+  ],
+  "id": "opyrlev",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "OPyrLev"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 1.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "siday",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "SIday"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "simon",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output",
+    "observations"
+  ],
+  "table_date": "2024-02-28",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "SImon"
+}
+    ,{
+  "conventions": "CF-1.7 CMIP-6.5",
+  "approx_interval": 30.0,
+  "checksum": "",
+  "cmor_version": "3.8.0",
+  "data_specs_version": "6.5.0.0",
+  "generic_levels": "",
+  "id": "simonpt",
+  "int_missing_value": "-999",
+  "missing_value": "1e20",
+  "product": [
+    "model-output"
+  ],
+  "table_date": "2023-11-16",
+  "type": [
+    "wcrp:tables",
+    "variables"
+  ],
+  "label": "SImonPt"
+}
+  ]
+}

@@ -1,0 +1,43 @@
+{
+    "@context": "_context_",
+    "id": "simon.sistryubot",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "simon",
+            "mip-era": "cmip6plus"
+        },
+        {
+            "@id": "simon",
+            "mip-era": "obs4mips"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello",
+    "cell_methods": "area: time: mean where sea_ice (comment: mask=siconc)",
+    "comment": "Y-component of ocean stress on sea ice",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Y-Component of Ocean Stress on Sea Ice",
+    "modeling_realm": [
+        "seaIce"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "sistryubot",
+    "positive": "up",
+    "standard_name": "upward_y_stress_at_sea_ice_base",
+    "units": "N m-2",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

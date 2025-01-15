@@ -1,0 +1,39 @@
+{
+    "@context": "_context_",
+    "id": "ap3hrpt.rsuscs",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "ap3hrpt",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: mean time: point",
+    "comment": "Surface Upwelling Clear-sky Shortwave Radiation",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1"
+    ],
+    "frequency": "3hrPt",
+    "long_name": "Surface Upwelling Clear-Sky Shortwave Radiation",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "rsuscs",
+    "positive": "up",
+    "standard_name": "surface_upwelling_shortwave_flux_in_air_assuming_clear_sky",
+    "units": "W m-2",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

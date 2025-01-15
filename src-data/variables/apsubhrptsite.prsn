@@ -1,0 +1,38 @@
+{
+    "@context": "_context_",
+    "id": "apsubhrptsite.prsn",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "apsubhrptsite",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "",
+    "cell_methods": "area: point time: point",
+    "comment": "At surface; includes precipitation of all forms of water in the solid phase",
+    "dimensions": [
+        "site",
+        "time1"
+    ],
+    "frequency": "subhrPt",
+    "long_name": "Snowfall Flux",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "prsn",
+    "positive": "",
+    "standard_name": "snowfall_flux",
+    "units": "kg m-2 s-1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

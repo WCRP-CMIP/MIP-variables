@@ -1,0 +1,40 @@
+{
+    "@context": "_context_",
+    "id": "gigmon.ts",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "gigmon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacellg",
+    "cell_methods": "area: time: mean where ice_sheet",
+    "comment": "Temperature of the lower boundary of the atmosphere",
+    "dimensions": [
+        "xgre",
+        "ygre",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Surface Temperature",
+    "modeling_realm": [
+        "landIce",
+        "land"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "ts",
+    "positive": "",
+    "standard_name": "surface_temperature",
+    "units": "K",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

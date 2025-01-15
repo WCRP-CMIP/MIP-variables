@@ -1,0 +1,40 @@
+{
+    "@context": "_context_",
+    "id": "ap6hrpt.vortmean",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "ap6hrpt",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacella",
+    "cell_methods": "area: mean time: point",
+    "comment": "Mean vorticity over 850,700,600 hPa",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time1",
+        "pl700"
+    ],
+    "frequency": "6hrPt",
+    "long_name": "Relative Vorticity",
+    "modeling_realm": [
+        "atmos"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "vortmean",
+    "positive": "",
+    "standard_name": "atmosphere_relative_vorticity",
+    "units": "s-1",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}

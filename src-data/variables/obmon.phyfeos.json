@@ -1,0 +1,39 @@
+{
+    "@context": "_context_",
+    "id": "obmon.phyfeos",
+    "type": [
+        "wcrp:variables",
+        "variables"
+    ],
+    "mip_tables": [
+        {
+            "@id": "obmon",
+            "mip-era": "cmip6plus"
+        }
+    ],
+    "themes": [
+        "TBC"
+    ],
+    "cell_measures": "area: areacello",
+    "cell_methods": "area: mean where sea time: mean",
+    "comment": "sum of phytoplankton iron component concentrations",
+    "dimensions": [
+        "longitude",
+        "latitude",
+        "time"
+    ],
+    "frequency": "mon",
+    "long_name": "Surface Mole Concentration of Total Phytoplankton Expressed as Iron in Sea Water",
+    "modeling_realm": [
+        "ocnBgchem"
+    ],
+    "ok_max_mean_abs": "",
+    "ok_min_mean_abs": "",
+    "out_name": "phyfeos",
+    "positive": "",
+    "standard_name": "mole_concentration_of_phytoplankton_expressed_as_iron_in_sea_water",
+    "units": "mol m-3",
+    "valid_max": "",
+    "valid_min": "",
+    "dtype": "real"
+}
