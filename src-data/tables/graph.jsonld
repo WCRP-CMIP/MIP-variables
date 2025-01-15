@@ -20,7 +20,7 @@
 },
   "@graph": [
     {
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -33,14 +33,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "ACmon",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "ACmon"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -53,14 +53,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "ACmonZ",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "ACmonZ"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.041667,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -73,14 +73,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AE1hr",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AE1hr"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.125,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -93,14 +93,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AE3hrPt",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AE3hrPt"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.125,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -116,14 +116,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AE3hrPtLev",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AE3hrPtLev"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.25,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -136,14 +136,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AE6hr",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AE6hr"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.25,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -156,14 +156,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AE6hrPt",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AE6hrPt"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.25,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -179,14 +179,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AE6hrPtLev",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AE6hrPtLev"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 1.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -199,14 +199,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AEday",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AEday"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -219,14 +219,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AEmon",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AEmon"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -242,14 +242,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AEmonLev",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AEmonLev"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -262,14 +262,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AEmonZ",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AEmonZ"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.017361,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -282,14 +282,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AEsubhrPt",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AEsubhrPt"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.017361,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -302,14 +302,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AEsubhrPtSite",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AEsubhrPtSite"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.041667,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -322,14 +322,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AP1hr",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AP1hr"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.041667,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -342,14 +342,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AP1hrPt",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AP1hrPt"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.125,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -362,14 +362,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "AP3hr",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AP3hr"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.125,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -382,14 +382,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "AP3hrPt",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AP3hrPt"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.125,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -405,14 +405,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AP3hrPtLev",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AP3hrPtLev"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.25,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -425,14 +425,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "AP6hr",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AP6hr"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.25,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -445,14 +445,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AP6hrPt",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AP6hrPt"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.25,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -468,14 +468,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AP6hrPtLev",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AP6hrPtLev"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.25,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -488,14 +488,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "AP6hrPtZ",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "AP6hrPtZ"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 1.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -508,14 +508,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "APday",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "APday"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 1.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -531,14 +531,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "APdayLev",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "APdayLev"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 1.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -551,14 +551,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "APdayZ",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "APdayZ"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -571,14 +571,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "APfx",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "APfx"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -591,14 +591,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "APmon",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "APmon"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -611,14 +611,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "APmonClim",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "APmonClim"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -634,14 +634,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "APmonClimLev",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "APmonClimLev"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.041667,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -654,14 +654,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "APmonDiurnal",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "APmonDiurnal"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -677,14 +677,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "APmonLev",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "APmonLev"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -697,14 +697,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "APmonZ",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "APmonZ"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.017361,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -717,14 +717,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "APsubhrPt",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "APsubhrPt"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.017361,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -740,14 +740,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "APsubhrPtLev",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "APsubhrPtLev"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.017361,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -760,14 +760,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "APsubhrPtSite",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "APsubhrPtSite"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -780,14 +780,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "GIAfx",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "GIAfx"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -800,14 +800,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "GIAmon",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "GIAmon"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 365.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -820,14 +820,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "GIAyr",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "GIAyr"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -840,14 +840,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "GIGfx",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "GIGfx"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -860,14 +860,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "GIGmon",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "GIGmon"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 365.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -880,14 +880,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "GIGyr",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "GIGyr"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.125,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -900,14 +900,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "LI3hrPt",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "LI3hrPt"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.25,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -920,14 +920,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "LI6hrPt",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "LI6hrPt"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 1.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -940,14 +940,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "LIday",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "LIday"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -960,14 +960,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "LIfx",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "LIfx"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -980,14 +980,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "LImon",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "LImon"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.017361,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1000,14 +1000,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "LIsubhrPtSite",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "LIsubhrPtSite"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.125,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1020,14 +1020,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "LP3hr",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "LP3hr"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.125,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1040,14 +1040,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "LP3hrPt",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "LP3hrPt"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.25,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1060,14 +1060,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "LP6hrPt",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "LP6hrPt"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 1.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1080,14 +1080,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "LPday",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "LPday"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1100,14 +1100,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "LPfx",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "LPfx"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1120,14 +1120,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "LPmon",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "LPmon"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 365.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1140,14 +1140,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "LPyr",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "LPyr"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 365.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1160,14 +1160,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "LPyrPt",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "LPyrPt"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 1.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1180,14 +1180,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "OBday",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OBday"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1200,14 +1200,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "OBmon",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OBmon"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1223,14 +1223,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "OBmonLev",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OBmonLev"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 365.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1243,14 +1243,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "OByr",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OByr"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 365.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1266,14 +1266,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "OByrLev",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OByrLev"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.125,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1286,14 +1286,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "OP3hrPt",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OP3hrPt"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 1.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1306,14 +1306,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "OPday",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OPday"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 3650.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1326,14 +1326,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "OPdec",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OPdec"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 3650.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1349,14 +1349,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "OPdecLev",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OPdecLev"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 3650.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1369,14 +1369,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "OPdecZ",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OPdecZ"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 0.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1389,14 +1389,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "OPfx",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OPfx"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1409,14 +1409,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "OPmon",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OPmon"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1429,14 +1429,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "OPmonClim",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OPmonClim"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1452,14 +1452,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "OPmonClimLev",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OPmonClimLev"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1475,14 +1475,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "OPmonLev",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OPmonLev"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1495,14 +1495,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "OPmonZ",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OPmonZ"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 365.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1515,14 +1515,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "OPyr",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OPyr"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 365.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1538,14 +1538,14 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "OPyrLev",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "OPyrLev"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 1.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1558,14 +1558,14 @@
     "model-output"
   ],
   "table_date": "2024-02-28",
-  "table_id": "SIday",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "SIday"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1579,14 +1579,14 @@
     "observations"
   ],
   "table_date": "2024-02-28",
-  "table_id": "SImon",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "SImon"
 }
     ,{
-  "Conventions": "CF-1.7 CMIP-6.5",
+  "conventions": "CF-1.7 CMIP-6.5",
   "approx_interval": 30.0,
   "checksum": "",
   "cmor_version": "3.8.0",
@@ -1599,11 +1599,11 @@
     "model-output"
   ],
   "table_date": "2023-11-16",
-  "table_id": "SImonPt",
   "type": [
     "wcrp:tables",
     "variables"
-  ]
+  ],
+  "label": "SImonPt"
 }
   ]
 }
